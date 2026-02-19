@@ -17,21 +17,7 @@ The result is a secure, explainable policy search assistant.
 
 🏗️ System Architecture
 
-User Question
-      ↓
-Streamlit UI
-      ↓
-Query Embedding (OpenAI)
-      ↓
-ChromaDB (Local Vector Store)
-      ↓
-Top-K Relevant Chunks Retrieved
-      ↓
-Prompt Construction
-      ↓
-GPT-4o-mini (Answer Generation)
-      ↓
-Final Answer with Citations
+<img width="346" height="521" alt="System_arc" src="https://github.com/user-attachments/assets/c6177af6-fee0-4179-8d6a-ed8aa3f1cdb1" />
 
 ---
 📂 Project Structure
@@ -48,6 +34,15 @@ genai-rag-policy-assistant/
 └── Project_Report.docx                      # Detailed academic report
 
 ---
+Execution Flow
+The system runs in two phases: ingestion phase and query phase.
+Ingestion Phase:
+<img width="348" height="52" alt="ingestion" src="https://github.com/user-attachments/assets/e7ffe001-786c-466b-a731-103578bbd765" />
+Query Phase:
+<img width="358" height="67" alt="query" src="https://github.com/user-attachments/assets/dfba79e5-b400-4f2c-8cb5-09f2709c8970" />
+
+-----
+
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
     1. Clone the repository: git clone <your-repo-link>
@@ -72,7 +67,11 @@ genai-rag-policy-assistant/
 Expected Output:
 1. Generated answer
 2. Source citations (document + page number)
+<img width="889" height="223" alt="notebook1" src="https://github.com/user-attachments/assets/73f3280e-4739-40c0-9865-decbb65d8835" />
+<img width="883" height="232" alt="notebook2" src="https://github.com/user-attachments/assets/bfec8731-e11c-4e28-b5ce-c653966fede6" />
+<img width="889" height="117" alt="notebook3" src="https://github.com/user-attachments/assets/c83166ef-c715-499d-94fb-09a0c66206cb" />
 
+   
 ## Option B — Streamlit Application (Recommended for Demo)
 1. Ensure:
     * app.py exists
@@ -91,6 +90,9 @@ Expected Output:
   * Grounded answer
   * Source citations
   * Indexed chunk confirmation
+<img width="825" height="392" alt="streamlit1" src="https://github.com/user-attachments/assets/41777e1d-57aa-444b-957d-2ca8526fc89d" />
+<img width="825" height="460" alt="streamlit2" src="https://github.com/user-attachments/assets/161be354-b5fd-44b2-bb3c-4a9095da80e7" />
+<img width="769" height="503" alt="streamlit3" src="https://github.com/user-attachments/assets/5cb7f3b5-9129-4144-88d7-b57490831a12" />
 
 🔎 Model & Parameter Choices
 # Embedding Model: text-embedding-3-small
