@@ -22,28 +22,24 @@ The result is a secure, explainable policy search assistant.
 ---
 📂 Project Structure
 
-genai-rag-policy-assistant/
-│
-├── Final_Project_RAG_SearchEngine.ipynb     # Main notebook (step-by-step RAG pipeline)
-├── app.py                                   # Streamlit application
-├── requirements.txt                         # Project dependencies
-├── README.md                                # Project documentation
-├── .env.example                             # Sample environment file
-├── Policy documents/                        # Policy PDFs
-│     └── XYZ_Dummy_Company_LTD_India_Employee_Policies.pdf
-└── Project_Report.docx                      # Detailed academic report
+<img width="469" height="157" alt="structure" src="https://github.com/user-attachments/assets/c5b3590f-3fd4-4846-9ec1-a3b4a6b90c13" />
+
 
 ---
-Execution Flow
+Execution Flow:
+
 The system runs in two phases: ingestion phase and query phase.
+
 Ingestion Phase:
 <img width="348" height="52" alt="ingestion" src="https://github.com/user-attachments/assets/e7ffe001-786c-466b-a731-103578bbd765" />
+
 Query Phase:
 <img width="358" height="67" alt="query" src="https://github.com/user-attachments/assets/dfba79e5-b400-4f2c-8cb5-09f2709c8970" />
 
 -----
 
-⚙️ Installation & Setup
+⚙️ Installation & Setup:
+
 1️⃣ Clone the Repository
     1. Clone the repository: git clone <your-repo-link>
     2. Navigate to project folder:  cd "D:\Gen_AI\Final Project"
